@@ -1,0 +1,35 @@
+.introduce-section {
+  background: linear-gradient(to right, #f3e6e8, #f9f6f7);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 600px; /* Adjust the height as needed */
+}
+
+.about-shop {
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-about-shop {
+  color: #372c38;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sub-title-about-shop {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for subtitle */
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block; /* Keeps background only around text */
+}
+

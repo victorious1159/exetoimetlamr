@@ -1,0 +1,46 @@
+.chart-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 40%;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto; 
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+  }
+  
+
+  .tooltip {
+    font-size: 14px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .chart-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .line-chart {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-label {
+    font-size: 12px;
+    fill: #666;
+  }
+  
+  circle:hover {
+    fill: #ff5722;
+    cursor: pointer;
+  }
+  
